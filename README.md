@@ -1,4 +1,4 @@
-# 🚗 Driver Drowsiness Monitoring System (Futuristic HUD)
+Markdown# 🚗 Driver Drowsiness Monitoring System (Futuristic HUD)
 
 An intelligent, real-time driver fatigue and drowsiness detection system engineered with **Python**, **OpenCV**, and **CustomTkinter**. The application processes live video feeds using adaptive contrast enhancement (CLAHE), facial feature tracking, multi-zone eye monitoring, and asynchronous multithreaded alert mechanisms.
 
@@ -38,18 +38,9 @@ An intelligent, real-time driver fatigue and drowsiness detection system enginee
 ├── face_and_eye_detector_single_image.py # Static image testing script
 ├── face_and_eye_detector_webcam_video.py # Main entry point (CustomTkinter HUD)
 └── requirements.txt                      # Project dependencies
-
-**🚀 Getting Started**
-Prerequisites
-Python 3.10 or higher
-
-A connected webcam (built-in or USB)
-
-**Installation**
-## 1. Clone the repository:
-git clone [https://github.com/SunnyChoudhary850/Driver-Drowsiness-Monitoring-System.git](https://github.com/SunnyChoudhary850/Driver-Drowsiness-Monitoring-System.git)
+🚀 Getting StartedPrerequisitesPython: Version 3.10 or higherHardware: A connected webcam (built-in or USB)InstallationClone the repository:Bashgit clone [https://github.com/SunnyChoudhary850/Driver-Drowsiness-Monitoring-System.git](https://github.com/SunnyChoudhary850/Driver-Drowsiness-Monitoring-System.git)
 cd Driver-Drowsiness-Monitoring-System
-## 2. Install required dependencies:
-pip install -r requirements.txt
-## 3. python face_and_eye_detector_webcam_video.py
-python face_and_eye_detector_webcam_video.py
+Install required dependencies:Bashpip install -r requirements.txt
+Run the application:Bashpython face_and_eye_detector_webcam_video.py
+⚙️ System WorkflowFrame Preprocessing: Video frames are captured, flipped, converted to grayscale, and normalized using CLAHE.ROI Extraction: The system detects facial boundaries and isolates left/right eye regions using strict aspect-ratio constraints.Fatigue Evaluation: If prolonged closure is detected ($>3$ seconds), the risk gauge fills and the status indicator transitions to an active alert.Asynchronous Dispatch: Audio alarms sound immediately while an email notification dispatch thread executes in the background.📜 LicenseDistributed under the MIT License. See LICENSE for more information.
+4. Click the green **Commit changes...** button at the top right to save it.
