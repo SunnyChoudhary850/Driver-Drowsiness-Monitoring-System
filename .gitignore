@@ -1,0 +1,13 @@
+# Credentials - never commit the real .env file, only .env.example
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS/editor junk
+.DS_Store
+.vscode/
+tempCodeRunnerFile.py
