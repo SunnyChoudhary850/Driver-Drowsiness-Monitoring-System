@@ -39,6 +39,8 @@ An intelligent, real-time driver fatigue and drowsiness detection system enginee
 ├── face_and_eye_detector_webcam_video.py # Main entry point (CustomTkinter HUD)
 └── requirements.txt                      # Project dependencies
 
+---
+
 **🚀 Getting Started**
 Prerequisites
 Python 3.10 or higher
