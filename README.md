@@ -94,7 +94,7 @@ When continuous eye closure exceeds **3 seconds**, the heads-up display triggers
 
 | Real-Time HUD Overlay | Delivered Email Report |
 | :---: | :---: |
-| ![Alarm Overlay Triggered](<images/alarm triggered.jpg>) | ![Email Delivered Snapshot](<images/Got the mail.png>) |
+| ![Alarm Overlay Triggered](<images/alarm triggered.png>) | ![Email Delivered Snapshot](<images/Got the mail.png>) |
 
 ---
 
