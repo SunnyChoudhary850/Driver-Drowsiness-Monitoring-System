@@ -43,6 +43,8 @@ An intelligent, real-time driver fatigue and drowsiness detection system enginee
 ```
 
 ---
+Screenshot 2026-08-20 174211.png
+![Frontend Banner](<images/Screenshot 2026-08-20 174211.png>)
 
 ## 📐 System Architecture & Workflow
 
