@@ -2,7 +2,7 @@
 
 An intelligent, real-time driver fatigue and drowsiness detection system engineered with **Python**, **OpenCV**, and **CustomTkinter**. The application processes live video feeds using adaptive contrast enhancement (CLAHE), facial feature tracking, multi-zone eye monitoring, and asynchronous multithreaded alert mechanisms.
 
-![Drowsiness Banner](<Drowsiness img.png>)
+![Drowsiness Banner](<images/Drowsiness img.png>)
 
 ---
 
@@ -57,14 +57,14 @@ An intelligent, real-time driver fatigue and drowsiness detection system enginee
 ### 2. Process Flowchart
 Logical decision pipeline from video frame ingestion to alarm trigger.
 
-![Flow Diagram](<flow diagram.png>)
+![Flow Diagram](<images/flow diagram.png>)
 
 ---
 
 ### 3. Data Flow Diagram (DFD)
 High-level data transformations across system processes, buffers, and external outputs.
 
-![Data Flow Diagram](<Screenshot 2025-05-19 183748.png>)
+![Data Flow Diagram](<images/Screenshot 2025-05-19 183748.png>)
 
 ---
 
@@ -74,7 +74,7 @@ Eye aperture dynamics and distance thresholds are calculated frame-by-frame usin
 
 $$d = \sqrt{(\Delta x)^2 + (\Delta y)^2} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
-![Eye Geometry Formula](<mathematics to cal eye movement.png>)
+![Eye Geometry Formula](<images/mathematics to cal eye movement.png>)
 
 ---
 
@@ -85,7 +85,7 @@ Bounding box verification for facial structure and eye regions.
 
 | Input Test | Detection Result |
 | :---: | :---: |
-| ![Camera Image Sample](<camp of img .png>) | ![Detection Result](result_face_detector_single_image.png) |
+| ![Camera Image Sample](<images/camp of img .png>) | ![Detection Result](images/result_face_detector_single_image.png) |
 
 ---
 
@@ -94,7 +94,7 @@ When continuous eye closure exceeds **3 seconds**, the heads-up display triggers
 
 | Real-Time HUD Overlay | Delivered Email Report |
 | :---: | :---: |
-| ![Alarm Overlay Triggered](<alarm triggered.jpg>) | ![Email Delivered Snapshot](<Got the mail.png>) |
+| ![Alarm Overlay Triggered](<images/alarm triggered.jpg>) | ![Email Delivered Snapshot](<images/Got the mail.png>) |
 
 ---
 
